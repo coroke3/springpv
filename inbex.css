@@ -146,7 +146,16 @@ body{
     border-radius: 10px;/*角の丸み*/
     font-size: 30px;
 }
-
+.disco {
+    padding: 0.5em 1em;
+    margin: 30;
+    font-weight: bold;
+    color: #000000;/*文字色*/
+    background:#e0ffff;
+    border: solid 3px #4169e1;/*線*/
+    border-radius: 10px;/*角の丸み*/
+    font-size: 30px;
+}
 
 @media screen and (max-width: 1000px) {
 h1{
