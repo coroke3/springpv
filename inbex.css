@@ -35,26 +35,29 @@ p {
     padding-right: 350px;
     
 }
-
-@media screen and (max-width: 1500px) {
-    .rogo{
-    width:100%;
-    height:100%;
-    }
-    .yohaku{
-        padding: 50px;
-    }
+.big{
+    margin-top: 30px;
+    width: 60%;
+    height: 300px;
 }
+
+
 
 @media screen and (max-width: 1000px) {
     .rogo{
-    width:100%;
-    height:100%;
+    width:70%;
+    height:70%;
     }
     .yohaku{
         padding: 30px;
     }
+    .big{
+    margin-top: 30px;
+    width: 75%;
+    height: 300px;
 }
+}
+
 
 @media screen and (max-width: 700px) {
     .rogo{
@@ -64,6 +67,11 @@ p {
     .yohaku{
         padding: 0px;
     }
+    .big{
+    margin-top: 30px;
+    width: 100%;
+    height: 200px;
+}
 }
 
 
