@@ -40,6 +40,19 @@ p {
     width: 60%;
     height: 300px;
 }
+.box11{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #5d627b;
+    background: white;
+    border-top: solid 5px #5d627b;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+.box11 a {
+    margin: 0; 
+    padding: 0;
+    color: #5d627b;
+}
 
 
 
@@ -82,19 +95,26 @@ h1{
     font-size: 40px;
     color: #000;
     height: auto;
+    font-weight:900;
+
+
 }
 h2{
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
     color: #000;
     height: auto;
+    font-weight:900;
 }
 a{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
+    
     color: #000;
     height: auto;
     text-decoration: none;
+    font-weight:700;
+    
 }
 #main{
     background-color: #fff;
@@ -165,7 +185,7 @@ body{
     font-size: 30px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
 h1{
     font-family: 'Roboto', sans-serif;
     font-size: 38px;
@@ -183,30 +203,31 @@ a{
     font-size: 25px;
     color: #000;
     height: auto;
+
 }
 #main{
 
-    padding: 20px;
+    padding: 80px;
     padding-bottom: 10px;
     padding-top: 10px;
     
 }
 #kako{
 
-    padding: 20px;
+    padding: 80px;
      padding-bottom: 10px;
     padding-top: 10px;
 }
      #menber{
 
-    padding: 20px;
+    padding: 80px;
      padding-bottom: 10px;
     padding-top: 10px;
 }
 
     #sns{
 
-    padding: 20px;
+    padding: 80px;
      padding-bottom: 10px;
     padding-top: 10px;
 }
@@ -229,7 +250,7 @@ a{
 @media screen and (max-width: 700px) {
 h1{
     font-family: 'Roboto', sans-serif;
-    font-size: 35px;
+    font-size: 30px;
 
     height: auto;
 }
@@ -241,32 +262,33 @@ h1{
 }
 a{
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
 
     height: auto;
+
 }
 #main{
 
-    padding: 10px;
+    padding: 25px;
     padding-bottom: 10px;
     padding-top: 10px;
     
 }
 #kako{
 
-    padding: 10px;
+    padding: 25px;
      padding-bottom: 10px;
     padding-top: 10px;
 }
     #menber{
 
-    padding: 10px;
+    padding: 25px;
      padding-bottom: 10px;
     padding-top: 10px;
     }
     #sns{
 
-    padding: 10px;
+    padding: 25px;
      padding-bottom: 10px;
     padding-top: 10px;
 }
